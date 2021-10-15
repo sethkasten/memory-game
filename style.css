@@ -54,6 +54,7 @@ body {
   background-color: indigo;
   color: white;
   border: 2px solid white;
+  z-index: 2;
 }
 
 .start-button:hover {
@@ -63,4 +64,36 @@ body {
 
 .hide {
   display: none;
+}
+
+.card {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  box-sizing: border-box;
+  margin: 2px;
+}
+
+.gameboard-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80vh;
+  width: 100vw;
+}
+
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  /* position: absolute; */
+  /* top: 300px;
+  right: 40%; */
+}
+
+.main {
+  position: relative;
 }
