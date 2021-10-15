@@ -19,6 +19,11 @@ body {
   padding: 10px;
 }
 
+.timer {
+  font-size: 36px;
+  transform: translate(-50%, 0%);
+}
+
 .reset-button-container {
   margin: 10px;
 }
